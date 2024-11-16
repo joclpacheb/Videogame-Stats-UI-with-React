@@ -1,0 +1,41 @@
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.control-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+}
+
+.control-item label {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+.control-item input[type="number"] {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.control-item input[type="text"] {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.control-item input[type="range"] {
+    width: 100%;
+    margin-top: 5px;
+}

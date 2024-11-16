@@ -1,0 +1,70 @@
+/* Main app container styles */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
+/* Container for both columns */
+.main-app-container {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  height: 80%;
+  padding-bottom: 10%;
+}
+
+/* Header -title area */
+.header {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #6e1b1b;
+  margin-bottom: 2%;
+}
+.username {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.description {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+text-align: center;
+  font-size: 1rem;
+  color: #6e1b1b;
+  margin-bottom: 2%;
+}
+
+/* Box styles */
+.box {
+  flex: 1;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-column,
+.right-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-column {
+border: #00038e 2px solid;
+margin-left: 10vh;
+margin-right: 10vh;
+padding:20px;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .main-app-container {
+    flex-direction: column;
+  }
+}

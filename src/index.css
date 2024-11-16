@@ -1,0 +1,18 @@
+@import url("https://use.typekit.net/your-font-kit-id.css");
+
+/* Global - body styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(246, 251, 233);
+  font-family: "DIN 2014", sans-serif;
+}
