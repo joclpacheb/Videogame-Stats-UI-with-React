@@ -1,6 +1,6 @@
 # Stats UI with React.js 
 
-This small project was created in preparation (and as a practice) for a coding interview as an UI engineer at a games studio, held on Nov 15th.
+This small project was created as a practice of UI Engineering with React for videogames.
 
 - **Main Goal**: Implementing one component *(StatsContainer)* to represent a single UI element design and a second component *(StatsControls)* with basic controls functionality for the stats of a stylized in-game Enemy/Player status bar.
 
